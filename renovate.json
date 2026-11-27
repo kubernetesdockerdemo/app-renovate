@@ -1,0 +1,14 @@
+{
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["python"],
+      "separateMinorPatch": true
+    },
+    {
+      "matchPackageNames": ["python"],
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
+    }
+  ]
+}
